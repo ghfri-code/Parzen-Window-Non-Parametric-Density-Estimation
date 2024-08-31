@@ -35,6 +35,4 @@ Implement the Parzen Window PDF estimation methods using h=0.09,0.3,0.6. Estimat
 ### Parzen Window Density 3D
 ![Parzen Window density 3d](https://github.com/Ghafarian-code/Parzen-Window-Non-Parametric-Density-Estimation/blob/main/images/Figure_4.png)
 
-Then employ the estimated Gaussian kernel for each class and do the followings with standard deviation 0.6:                                    
-a) Divide the samples into a 90% train and 10% test data randomly.                                                                             
-b) Use Bayesian estimation and predict the class labels while reporting train, test and total accuracies.                                      
+It is clear that with smaller 'h', we have discontinuities and it causes no samples to be included in some cases. The larger 'h' is, the smoother the density function is and the classes are more separated.                                   
